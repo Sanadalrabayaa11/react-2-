@@ -1,6 +1,6 @@
 
 
-import styles from './Navbar.modulee.css'; 
+import styles from './Navbar.module.css'; 
 
 function Navbar() {
   return (
@@ -37,7 +37,7 @@ function Navbar() {
             <a href="#" className={styles.login}>
               Log in
             </a>
-            <a href="#" className='{styles.register}'>
+            <a href="#" className={styles.register}>
               Register
             </a>
           </div>
